@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface TBSecondViewController : UIViewController <CLLocationManagerDelegate>
+@interface TBLocationViewController : UIViewController <CLLocationManagerDelegate>
 
 @property (strong, nonatomic) IBOutlet MKMapView *map;
 @property (strong, nonatomic) IBOutlet UISegmentedControl *segmentAccuracy;

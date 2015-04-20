@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TBFifthViewController : UIViewController<NSStreamDelegate>
+@interface TBVoipViewController : UIViewController<NSStreamDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *txtIP;
 @property (strong, nonatomic) IBOutlet UITextField *txtPort;

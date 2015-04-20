@@ -1,26 +1,26 @@
 //
-//  TBThirdViewController.m
+//  TBFifthViewController.m
 //  TheBackgrounder
 //
 //  Copyright (c) 2013 Gustavo Ambrozio. All rights reserved.
 //
 
-#import "TBThirdViewController.h"
+#import "TBVoipViewController.h"
 
-@interface TBThirdViewController ()
+@interface TBVoipViewController ()
 
 @end
 
-@implementation TBThirdViewController
+@implementation TBVoipViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-  if (self) {
-    self.title = NSLocalizedString(@"Whatever", @"Whatever");
-    self.tabBarItem.image = [UIImage imageNamed:@"first"];
-  }
-  return self;
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.title = NSLocalizedString(@"VoIP", @"VoIP");
+        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+    }
+    return self;
 }
 
 - (void)viewDidLoad

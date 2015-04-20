@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CC1D076F17125E8A00EBC4D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1D076E17125E8A00EBC4D6 /* CoreLocation.framework */; };
-		CC5E1969171234460099C312 /* TBThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5E1967171234460099C312 /* TBThirdViewController.m */; };
-		CC5E196A171234460099C312 /* TBThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E1968171234460099C312 /* TBThirdViewController.xib */; };
-		CC5E196E171234540099C312 /* TBFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5E196C171234540099C312 /* TBFourthViewController.m */; };
-		CC5E196F171234540099C312 /* TBFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E196D171234540099C312 /* TBFourthViewController.xib */; };
-		CC5E19731712345E0099C312 /* TBFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5E19711712345E0099C312 /* TBFifthViewController.m */; };
-		CC5E19741712345E0099C312 /* TBFifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E19721712345E0099C312 /* TBFifthViewController.xib */; };
+		CC5E1969171234460099C312 /* TBWhateverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5E1967171234460099C312 /* TBWhateverViewController.m */; };
+		CC5E196A171234460099C312 /* TBWhateverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E1968171234460099C312 /* TBWhateverViewController.xib */; };
+		CC5E196E171234540099C312 /* TBNewsstandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5E196C171234540099C312 /* TBNewsstandViewController.m */; };
+		CC5E196F171234540099C312 /* TBNewsstandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E196D171234540099C312 /* TBNewsstandViewController.xib */; };
+		CC5E19731712345E0099C312 /* TBVoipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5E19711712345E0099C312 /* TBVoipViewController.m */; };
+		CC5E19741712345E0099C312 /* TBVoipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E19721712345E0099C312 /* TBVoipViewController.xib */; };
 		CC78DC471712532F00FCC47B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78DC441712532F00FCC47B /* AudioToolbox.framework */; };
 		CC78DC481712532F00FCC47B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78DC451712532F00FCC47B /* AVFoundation.framework */; };
 		CC78DC491712532F00FCC47B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78DC461712532F00FCC47B /* CoreMedia.framework */; };
@@ -28,10 +28,10 @@
 		CCAB1EBF17051254002D7B7C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB1EBE17051254002D7B7C /* Default.png */; };
 		CCAB1EC117051254002D7B7C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB1EC017051254002D7B7C /* Default@2x.png */; };
 		CCAB1EC317051254002D7B7C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB1EC217051254002D7B7C /* Default-568h@2x.png */; };
-		CCAB1EC617051254002D7B7C /* TBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAB1EC517051254002D7B7C /* TBFirstViewController.m */; };
+		CCAB1EC617051254002D7B7C /* TBMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAB1EC517051254002D7B7C /* TBMusicViewController.m */; };
 		CCAB1EC817051254002D7B7C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB1EC717051254002D7B7C /* first.png */; };
 		CCAB1ECA17051254002D7B7C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB1EC917051254002D7B7C /* first@2x.png */; };
-		CCAB1ECD17051254002D7B7C /* TBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAB1ECC17051254002D7B7C /* TBSecondViewController.m */; };
+		CCAB1ECD17051254002D7B7C /* TBLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAB1ECC17051254002D7B7C /* TBLocationViewController.m */; };
 		CCAB1ECF17051254002D7B7C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB1ECE17051254002D7B7C /* second.png */; };
 		CCAB1ED117051254002D7B7C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAB1ED017051254002D7B7C /* second@2x.png */; };
 		CCAB1ED417051254002D7B7C /* TBFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCAB1ED217051254002D7B7C /* TBFirstViewController.xib */; };
@@ -43,15 +43,15 @@
 
 /* Begin PBXFileReference section */
 		CC1D076E17125E8A00EBC4D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		CC5E1966171234460099C312 /* TBThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBThirdViewController.h; sourceTree = "<group>"; };
-		CC5E1967171234460099C312 /* TBThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBThirdViewController.m; sourceTree = "<group>"; };
-		CC5E1968171234460099C312 /* TBThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBThirdViewController.xib; sourceTree = "<group>"; };
-		CC5E196B171234540099C312 /* TBFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFourthViewController.h; sourceTree = "<group>"; };
-		CC5E196C171234540099C312 /* TBFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFourthViewController.m; sourceTree = "<group>"; };
-		CC5E196D171234540099C312 /* TBFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBFourthViewController.xib; sourceTree = "<group>"; };
-		CC5E19701712345E0099C312 /* TBFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFifthViewController.h; sourceTree = "<group>"; };
-		CC5E19711712345E0099C312 /* TBFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFifthViewController.m; sourceTree = "<group>"; };
-		CC5E19721712345E0099C312 /* TBFifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBFifthViewController.xib; sourceTree = "<group>"; };
+		CC5E1966171234460099C312 /* TBWhateverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBWhateverViewController.h; sourceTree = "<group>"; };
+		CC5E1967171234460099C312 /* TBWhateverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBWhateverViewController.m; sourceTree = "<group>"; };
+		CC5E1968171234460099C312 /* TBWhateverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBWhateverViewController.xib; sourceTree = "<group>"; };
+		CC5E196B171234540099C312 /* TBNewsstandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBNewsstandViewController.h; sourceTree = "<group>"; };
+		CC5E196C171234540099C312 /* TBNewsstandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBNewsstandViewController.m; sourceTree = "<group>"; };
+		CC5E196D171234540099C312 /* TBNewsstandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBNewsstandViewController.xib; sourceTree = "<group>"; };
+		CC5E19701712345E0099C312 /* TBVoipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVoipViewController.h; sourceTree = "<group>"; };
+		CC5E19711712345E0099C312 /* TBVoipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVoipViewController.m; sourceTree = "<group>"; };
+		CC5E19721712345E0099C312 /* TBVoipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBVoipViewController.xib; sourceTree = "<group>"; };
 		CC78DC441712532F00FCC47B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CC78DC451712532F00FCC47B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CC78DC461712532F00FCC47B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -70,16 +70,16 @@
 		CCAB1EBE17051254002D7B7C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CCAB1EC017051254002D7B7C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CCAB1EC217051254002D7B7C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CCAB1EC417051254002D7B7C /* TBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBFirstViewController.h; sourceTree = "<group>"; };
-		CCAB1EC517051254002D7B7C /* TBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBFirstViewController.m; sourceTree = "<group>"; };
+		CCAB1EC417051254002D7B7C /* TBMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBMusicViewController.h; sourceTree = "<group>"; };
+		CCAB1EC517051254002D7B7C /* TBMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBMusicViewController.m; sourceTree = "<group>"; };
 		CCAB1EC717051254002D7B7C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		CCAB1EC917051254002D7B7C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		CCAB1ECB17051254002D7B7C /* TBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBSecondViewController.h; sourceTree = "<group>"; };
-		CCAB1ECC17051254002D7B7C /* TBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBSecondViewController.m; sourceTree = "<group>"; };
+		CCAB1ECB17051254002D7B7C /* TBLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBLocationViewController.h; sourceTree = "<group>"; };
+		CCAB1ECC17051254002D7B7C /* TBLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBLocationViewController.m; sourceTree = "<group>"; };
 		CCAB1ECE17051254002D7B7C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		CCAB1ED017051254002D7B7C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		CCAB1ED317051254002D7B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBFirstViewController.xib; sourceTree = "<group>"; };
-		CCAB1ED617051254002D7B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBSecondViewController.xib; sourceTree = "<group>"; };
+		CCAB1ED317051254002D7B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBMusicViewController.xib; sourceTree = "<group>"; };
+		CCAB1ED617051254002D7B7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBLocationViewController.xib; sourceTree = "<group>"; };
 		CCF62F791712541A0086A90C /* FeelinGood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FeelinGood.mp3; sourceTree = "<group>"; };
 		CCF62F7A1712541A0086A90C /* IronBacon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IronBacon.mp3; sourceTree = "<group>"; };
 		CCF62F7B1712541A0086A90C /* WhatYouWant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhatYouWant.mp3; sourceTree = "<group>"; };
@@ -143,21 +143,21 @@
 			children = (
 				CCAB1EBB17051254002D7B7C /* TBAppDelegate.h */,
 				CCAB1EBC17051254002D7B7C /* TBAppDelegate.m */,
-				CCAB1EC417051254002D7B7C /* TBFirstViewController.h */,
-				CCAB1EC517051254002D7B7C /* TBFirstViewController.m */,
+				CCAB1EC417051254002D7B7C /* TBMusicViewController.h */,
+				CCAB1EC517051254002D7B7C /* TBMusicViewController.m */,
 				CCAB1ED217051254002D7B7C /* TBFirstViewController.xib */,
-				CCAB1ECB17051254002D7B7C /* TBSecondViewController.h */,
-				CCAB1ECC17051254002D7B7C /* TBSecondViewController.m */,
+				CCAB1ECB17051254002D7B7C /* TBLocationViewController.h */,
+				CCAB1ECC17051254002D7B7C /* TBLocationViewController.m */,
 				CCAB1ED517051254002D7B7C /* TBSecondViewController.xib */,
-				CC5E1966171234460099C312 /* TBThirdViewController.h */,
-				CC5E1967171234460099C312 /* TBThirdViewController.m */,
-				CC5E1968171234460099C312 /* TBThirdViewController.xib */,
-				CC5E196B171234540099C312 /* TBFourthViewController.h */,
-				CC5E196C171234540099C312 /* TBFourthViewController.m */,
-				CC5E196D171234540099C312 /* TBFourthViewController.xib */,
-				CC5E19701712345E0099C312 /* TBFifthViewController.h */,
-				CC5E19711712345E0099C312 /* TBFifthViewController.m */,
-				CC5E19721712345E0099C312 /* TBFifthViewController.xib */,
+				CC5E1966171234460099C312 /* TBWhateverViewController.h */,
+				CC5E1967171234460099C312 /* TBWhateverViewController.m */,
+				CC5E1968171234460099C312 /* TBWhateverViewController.xib */,
+				CC5E196B171234540099C312 /* TBNewsstandViewController.h */,
+				CC5E196C171234540099C312 /* TBNewsstandViewController.m */,
+				CC5E196D171234540099C312 /* TBNewsstandViewController.xib */,
+				CC5E19701712345E0099C312 /* TBVoipViewController.h */,
+				CC5E19711712345E0099C312 /* TBVoipViewController.m */,
+				CC5E19721712345E0099C312 /* TBVoipViewController.xib */,
 				CCAB1EB317051254002D7B7C /* Supporting Files */,
 			);
 			path = TheBackgrounder;
@@ -246,9 +246,9 @@
 				CCAB1ED117051254002D7B7C /* second@2x.png in Resources */,
 				CCAB1ED417051254002D7B7C /* TBFirstViewController.xib in Resources */,
 				CCAB1ED717051254002D7B7C /* TBSecondViewController.xib in Resources */,
-				CC5E196A171234460099C312 /* TBThirdViewController.xib in Resources */,
-				CC5E196F171234540099C312 /* TBFourthViewController.xib in Resources */,
-				CC5E19741712345E0099C312 /* TBFifthViewController.xib in Resources */,
+				CC5E196A171234460099C312 /* TBWhateverViewController.xib in Resources */,
+				CC5E196F171234540099C312 /* TBNewsstandViewController.xib in Resources */,
+				CC5E19741712345E0099C312 /* TBVoipViewController.xib in Resources */,
 				CCF62F7C1712541A0086A90C /* FeelinGood.mp3 in Resources */,
 				CCF62F7D1712541A0086A90C /* IronBacon.mp3 in Resources */,
 				CCF62F7E1712541A0086A90C /* WhatYouWant.mp3 in Resources */,
@@ -264,11 +264,11 @@
 			files = (
 				CCAB1EB917051254002D7B7C /* main.m in Sources */,
 				CCAB1EBD17051254002D7B7C /* TBAppDelegate.m in Sources */,
-				CCAB1EC617051254002D7B7C /* TBFirstViewController.m in Sources */,
-				CCAB1ECD17051254002D7B7C /* TBSecondViewController.m in Sources */,
-				CC5E1969171234460099C312 /* TBThirdViewController.m in Sources */,
-				CC5E196E171234540099C312 /* TBFourthViewController.m in Sources */,
-				CC5E19731712345E0099C312 /* TBFifthViewController.m in Sources */,
+				CCAB1EC617051254002D7B7C /* TBMusicViewController.m in Sources */,
+				CCAB1ECD17051254002D7B7C /* TBLocationViewController.m in Sources */,
+				CC5E1969171234460099C312 /* TBWhateverViewController.m in Sources */,
+				CC5E196E171234540099C312 /* TBNewsstandViewController.m in Sources */,
+				CC5E19731712345E0099C312 /* TBVoipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
