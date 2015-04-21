@@ -213,6 +213,15 @@
 				CLASSPREFIX = TB;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Gustavo Ambrozio";
+				TargetAttributes = {
+					CCAB1EA817051254002D7B7C = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = CCAB1EA417051254002D7B7C /* Build configuration list for PBXProject "TheBackgrounder" */;
 			compatibilityVersion = "Xcode 3.2";
